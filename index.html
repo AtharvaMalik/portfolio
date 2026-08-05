@@ -110,9 +110,7 @@ h1 .dim{color:var(--label-2)}
 .client-card:hover{transform:translateY(-3px);background:var(--surface-hi);border-color:rgba(142,142,147,.34)}
 .client-logo{
   width:72px;height:72px;flex:0 0 auto;border-radius:22px;border:.5px solid rgba(142,142,147,.18);
-  background-color:#424244;
-  background-image:url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='28' fill='%233A3A3C'/%3E%3Crect x='28' y='28' width='104' height='104' rx='24' fill='%23424244' stroke='%238E8E93' stroke-opacity='.22'/%3E%3Ctext x='80' y='89' text-anchor='middle' fill='%23E5E5EA' font-family='Arial, Helvetica, sans-serif' font-size='22' font-weight='700'%3ELOGO%3C/text%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:center;background-size:cover;opacity:.92;
+  object-fit:cover;object-position:center;opacity:.92;display:block;
 }
 .client-card span{font-size:13px;font-weight:500;letter-spacing:-.006em;text-align:center;color:var(--label-2);line-height:1.35}
 .btn{
@@ -380,13 +378,13 @@ footer{margin-top:clamp(56px,8vw,88px);padding-top:26px;padding-bottom:40px}
       <h2 class="t-1" id="worked-for-title">Brands and teams I’ve worked for.</h2>
     </div>
     <div class="client-grid">
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>Bombay Shaving Company</span></div>
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>Flipkart seller hub</span></div>
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>JEH Aerospace</span></div>
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>3one4 Capital</span></div>
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>The Product Folks</span></div>
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>Rukam Capital</span></div>
-      <div class="client-card"><div class="client-logo" aria-hidden="true"></div><span>Inside CVC by U-path</span></div>
+      <div class="client-card"><img src="logos/bsc.jpg" alt="Bombay Shaving Company" class="client-logo"><span>Bombay Shaving Company</span></div>
+      <div class="client-card"><img src="logos/Flipkart_logo.png" alt="Flipkart" class="client-logo"><span>Flipkart seller hub</span></div>
+      <div class="client-card"><img src="logos/Jeh Aerospace.png" alt="JEH Aerospace" class="client-logo"><span>JEH Aerospace</span></div>
+      <div class="client-card"><img src="logos/3one4.jpg" alt="3one4 Capital" class="client-logo"><span>3one4 Capital</span></div>
+      <div class="client-card"><img src="logos/The Product folks.jpg" alt="The Product Folks" class="client-logo"><span>The Product Folks</span></div>
+      <div class="client-card"><img src="logos/rukum.jpg" alt="Rukam Capital" class="client-logo"><span>Rukam Capital</span></div>
+      <div class="client-card"><img src="logos/inside CVC.jpg" alt="Inside CVC" class="client-logo"><span>Inside CVC by U-path</span></div>
     </div>
   </section>
 
@@ -404,7 +402,7 @@ footer{margin-top:clamp(56px,8vw,88px);padding-top:26px;padding-bottom:40px}
   </div>
 </header>
 
-<!-- WORK -->
+<!-- WORK --> 
 <section class="section wrap" id="work">
   <div class="sec-head rise">
     <span class="eyebrow">Selected work</span>
